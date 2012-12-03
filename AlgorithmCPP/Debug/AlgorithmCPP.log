@@ -1,0 +1,17 @@
+﻿Build started 11/28/2012 10:43:35 AM.
+     1>Project "C:\Users\sanqiang\Dropbox\VSProject\Algorithm\AlgorithmCPP\AlgorithmCPP.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\AlgorithmCPP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         AlgorithmCPP.vcxproj -> C:\Users\sanqiang\Dropbox\VSProject\Algorithm\Debug\AlgorithmCPP.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\AlgorithmCPP.unsuccessfulbuild".
+         Touching "Debug\AlgorithmCPP.lastbuildstate".
+     1>Done Building Project "C:\Users\sanqiang\Dropbox\VSProject\Algorithm\AlgorithmCPP\AlgorithmCPP.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.47

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LinkedList">
+      <UniqueIdentifier>{35c9e84f-3668-4d6d-bf57-d5ef85b3436b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{e75715f0-cb21-4d6c-8ba0-e0f4b70648a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArtCoder">
+      <UniqueIdentifier>{ea96640a-5cbc-4482-9d6b-56f650922f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recursive">
+      <UniqueIdentifier>{c21eb9f1-7ac2-43a0-ab2a-0b4fa5785cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OOP">
+      <UniqueIdentifier>{cc59dfa1-f046-412f-9ee3-b227b124804a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="StdOperation.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="1_1.cpp">
+      <Filter>ArtCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="1_2.cpp">
+      <Filter>ArtCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="1_3.cpp">
+      <Filter>ArtCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="1_4.cpp">
+      <Filter>ArtCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="Q6.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="Q5.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="element.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="treasure.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

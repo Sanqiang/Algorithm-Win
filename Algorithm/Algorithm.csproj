@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B78180A5-163E-4E83-A8B2-DF53D8DDBCE3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Algorithm</RootNamespace>
+    <AssemblyName>Algorithm</AssemblyName>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>True</Externalconsole>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>True</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayAndString\CC1_3.cs" />
+    <Compile Include="ArrayAndString\CC1_4.cs" />
+    <Compile Include="ArrayAndString\CC1_5.cs" />
+    <Compile Include="ArrayAndString\CC1_6.cs" />
+    <Compile Include="ArrayAndString\CC1_7.cs" />
+    <Compile Include="ArrayAndString\CC1_8.cs" />
+    <Compile Include="ArrayAndString\CCN1_5.cs" />
+    <Compile Include="ArrayAndString\FindSumPair.cs" />
+    <Compile Include="ArrayAndString\JosephusRing.cs" />
+    <Compile Include="ArrayAndString\KMP.cs" />
+    <Compile Include="ArrayAndString\removeDuplicate.cs" />
+    <Compile Include="BitManipulation\BaseNine.cs" />
+    <Compile Include="BitManipulation\BitSet.cs" />
+    <Compile Include="BitManipulation\CC5_1.cs" />
+    <Compile Include="BitManipulation\CC5_2.cs" />
+    <Compile Include="BitManipulation\CC5_3.cs" />
+    <Compile Include="BitManipulation\CC5_5.cs" />
+    <Compile Include="BitManipulation\CC5_6.cs" />
+    <Compile Include="BitManipulation\CC5_7.cs" />
+    <Compile Include="BitManipulation\CCN5_8.cs" />
+    <Compile Include="BitManipulation\MaxMin.cs" />
+    <Compile Include="BitManipulation\Swap.cs" />
+    <Compile Include="LinkedList\CC2_1.cs" />
+    <Compile Include="LinkedList\CC2_2.cs" />
+    <Compile Include="LinkedList\CC2_3.cs" />
+    <Compile Include="LinkedList\CC2_4.cs" />
+    <Compile Include="LinkedList\CC2_5.cs" />
+    <Compile Include="LinkedList\CCN2_4.cs" />
+    <Compile Include="LinkedList\CCN2_7.cs" />
+    <Compile Include="LinkedList\Entity.cs" />
+    <Compile Include="LinkedList\ReverseLinkedList.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ArrayAndString\StringInclude.cs" />
+    <Compile Include="Microsoft\Q100.cs" />
+    <Compile Include="Microsoft\Q74.cs" />
+    <Compile Include="Microsoft\Q73.cs" />
+    <Compile Include="Microsoft\Q75.cs" />
+    <Compile Include="Microsoft\Q76.cs" />
+    <Compile Include="Microsoft\Q77.cs" />
+    <Compile Include="Microsoft\Q79.cs" />
+    <Compile Include="Microsoft\Q80.cs" />
+    <Compile Include="Microsoft\Q61.cs" />
+    <Compile Include="Microsoft\Q62.cs" />
+    <Compile Include="Microsoft\Q63.cs" />
+    <Compile Include="Microsoft\Q64.cs" />
+    <Compile Include="Microsoft\Q65.cs" />
+    <Compile Include="Microsoft\Q66.cs" />
+    <Compile Include="Microsoft\Q68.cs" />
+    <Compile Include="Microsoft\Q69.cs" />
+    <Compile Include="Microsoft\Q51.cs" />
+    <Compile Include="Microsoft\Q52.cs" />
+    <Compile Include="Microsoft\Q53.cs" />
+    <Compile Include="Microsoft\Q54.cs" />
+    <Compile Include="Microsoft\Q56.cs" />
+    <Compile Include="Microsoft\Q57.cs" />
+    <Compile Include="Microsoft\Q58.cs" />
+    <Compile Include="Microsoft\Q43.cs" />
+    <Compile Include="Microsoft\Q45.cs" />
+    <Compile Include="Microsoft\Q46.cs" />
+    <Compile Include="Microsoft\Q47.cs" />
+    <Compile Include="Microsoft\Q48.cs" />
+    <Compile Include="Microsoft\Q49.cs" />
+    <Compile Include="Microsoft\Q40.cs" />
+    <Compile Include="Microsoft\Q39.cs" />
+    <Compile Include="Microsoft\Q36.cs" />
+    <Compile Include="Microsoft\Q37.cs" />
+    <Compile Include="Microsoft\Q35.cs" />
+    <Compile Include="Microsoft\Q34.cs" />
+    <Compile Include="Microsoft\Q33.cs" />
+    <Compile Include="Microsoft\Q32.cs" />
+    <Compile Include="Microsoft\Q23.cs" />
+    <Compile Include="Microsoft\Q24.cs" />
+    <Compile Include="Microsoft\Q25.cs" />
+    <Compile Include="Microsoft\Q26.cs" />
+    <Compile Include="Microsoft\Q30.cs" />
+    <Compile Include="Microsoft\Q27.cs" />
+    <Compile Include="Microsoft\Q28.cs" />
+    <Compile Include="Microsoft\Q29.cs" />
+    <Compile Include="Microsoft\Q13.cs" />
+    <Compile Include="Microsoft\Q10.cs" />
+    <Compile Include="Microsoft\Q11.cs" />
+    <Compile Include="Microsoft\Q12.cs" />
+    <Compile Include="Microsoft\Q14.cs" />
+    <Compile Include="Microsoft\Q15.cs" />
+    <Compile Include="Microsoft\Q16.cs" />
+    <Compile Include="Microsoft\Q17.cs" />
+    <Compile Include="Microsoft\Q18.cs" />
+    <Compile Include="Microsoft\Q19.cs" />
+    <Compile Include="Microsoft\Q20.cs" />
+    <Compile Include="Microsoft\Q21.cs" />
+    <Compile Include="Microsoft\Q31.cs" />
+    <Compile Include="Microsoft\Q42.cs" />
+    <Compile Include="Microsoft\Q50.cs" />
+    <Compile Include="Microsoft\Q60.cs" />
+    <Compile Include="Microsoft\Q7.cs" />
+    <Compile Include="Microsoft\Q6.cs" />
+    <Compile Include="Microsoft\Q5.cs" />
+    <Compile Include="Microsoft\Q4.cs" />
+    <Compile Include="Microsoft\Q1.cs" />
+    <Compile Include="Microsoft\Q2.cs" />
+    <Compile Include="Microsoft\Q3.cs" />
+    <Compile Include="Microsoft\Q70.cs" />
+    <Compile Include="Microsoft\Q8.cs" />
+    <Compile Include="Microsoft\Q81.cs" />
+    <Compile Include="Microsoft\Q82.cs" />
+    <Compile Include="Microsoft\Q83.cs" />
+    <Compile Include="Microsoft\Q84.cs" />
+    <Compile Include="Microsoft\Q85.cs" />
+    <Compile Include="Microsoft\Q86.cs" />
+    <Compile Include="Microsoft\Q87.cs" />
+    <Compile Include="Microsoft\Q88.cs" />
+    <Compile Include="Microsoft\Q89.cs" />
+    <Compile Include="Microsoft\Q9.cs" />
+    <Compile Include="Microsoft\Q90.cs" />
+    <Compile Include="Microsoft\Q92.cs" />
+    <Compile Include="Microsoft\Q93.cs" />
+    <Compile Include="Microsoft\Q94.cs" />
+    <Compile Include="Microsoft\Q95.cs" />
+    <Compile Include="Microsoft\Q96.cs" />
+    <Compile Include="Microsoft\Q97.cs" />
+    <Compile Include="Microsoft\Q98.cs" />
+    <Compile Include="Microsoft\Q99.cs" />
+    <Compile Include="Pointer\Sample.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Recursive\BackSack.cs" />
+    <Compile Include="Recursive\CC8_1.cs" />
+    <Compile Include="Recursive\CC8_2.cs" />
+    <Compile Include="Recursive\CC8_3.cs" />
+    <Compile Include="Recursive\CC8_4.cs" />
+    <Compile Include="Recursive\CC8_5.cs" />
+    <Compile Include="Recursive\CC8_6.cs" />
+    <Compile Include="Recursive\CC8_7.cs" />
+    <Compile Include="Recursive\CC8_8.cs" />
+    <Compile Include="Recursive\CCN8_1.cs" />
+    <Compile Include="Recursive\CCN8_10.cs" />
+    <Compile Include="Recursive\CCN8_11.cs" />
+    <Compile Include="Recursive\CCN8_3.cs" />
+    <Compile Include="Recursive\LongestIncreasingSequence.cs" />
+    <Compile Include="Recursive\LongestSubSequence.cs" />
+    <Compile Include="Recursive\VerifySquare.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SortAndSearch\BubbleSort.cs" />
+    <Compile Include="SortAndSearch\CC9_1.cs" />
+    <Compile Include="SortAndSearch\CC9_2.cs" />
+    <Compile Include="SortAndSearch\CC9_3.cs" />
+    <Compile Include="SortAndSearch\CC9_4.cs" />
+    <Compile Include="SortAndSearch\CC9_5.cs" />
+    <Compile Include="SortAndSearch\CC9_6.cs" />
+    <Compile Include="SortAndSearch\CC9_7.cs" />
+    <Compile Include="SortAndSearch\CCN9_8.cs" />
+    <Compile Include="SortAndSearch\CocktailSort.cs" />
+    <Compile Include="SortAndSearch\CountSort.cs" />
+    <Compile Include="SortAndSearch\HeapSearch.cs" />
+    <Compile Include="SortAndSearch\HeapSort.cs" />
+    <Compile Include="SortAndSearch\LibrarySort.cs" />
+    <Compile Include="SortAndSearch\NthBiggest.cs" />
+    <Compile Include="SortAndSearch\QuickSort.cs" />
+    <Compile Include="SortAndSearch\MergeSort.cs" />
+    <Compile Include="SortAndSearch\InsertSort.cs" />
+    <Compile Include="SortAndSearch\RadixSort.cs" />
+    <Compile Include="SortAndSearch\SelectSort.cs" />
+    <Compile Include="SortAndSearch\TreeSort.cs" />
+    <Compile Include="StackAndQueue\CC3_1.cs" />
+    <Compile Include="StackAndQueue\CC3_2.cs" />
+    <Compile Include="StackAndQueue\CC3_3.cs" />
+    <Compile Include="StackAndQueue\CC3_4.cs" />
+    <Compile Include="StackAndQueue\CC3_5.cs" />
+    <Compile Include="StackAndQueue\CC3_6.cs" />
+    <Compile Include="StackAndQueue\CCN3_7.cs" />
+    <Compile Include="StackAndQueue\Entity.cs" />
+    <Compile Include="test.cs" />
+    <Compile Include="TreeAndGraph\BinarySearchTree.cs" />
+    <Compile Include="TreeAndGraph\CC4_1.cs" />
+    <Compile Include="TreeAndGraph\CC4_2.cs" />
+    <Compile Include="TreeAndGraph\CC4_3.cs" />
+    <Compile Include="TreeAndGraph\CC4_4.cs" />
+    <Compile Include="TreeAndGraph\CC4_5.cs" />
+    <Compile Include="TreeAndGraph\CC4_6.cs" />
+    <Compile Include="TreeAndGraph\CC4_7.cs" />
+    <Compile Include="TreeAndGraph\CC4_8.cs" />
+    <Compile Include="TreeAndGraph\CCN4_5.cs" />
+    <Compile Include="TreeAndGraph\Dijkstra.cs" />
+    <Compile Include="TreeAndGraph\Entity.cs" />
+    <Compile Include="TreeAndGraph\Floyd.cs" />
+    <Compile Include="TreeAndGraph\hasLoop.cs" />
+    <Compile Include="TreeAndGraph\RBTree.cs" />
+    <Compile Include="TreeAndGraph\VerifyBinarySearchTree.cs" />
+    <Compile Include="ArrayAndString\CC1_1.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>

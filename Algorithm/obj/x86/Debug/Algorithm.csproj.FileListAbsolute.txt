@@ -1,0 +1,6 @@
+C:\Users\sanqiang\Dropbox\VSProject\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+C:\Users\sanqiang\Dropbox\VSProject\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+C:\Users\sanqiang\Dropbox\VSProject\Algorithm\Algorithm\obj\x86\Debug\Algorithm.exe
+C:\Users\sanqiang\Dropbox\VSProject\Algorithm\Algorithm\obj\x86\Debug\Algorithm.pdb
+C:\Users\Sanqiang\Dropbox\VSProject\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+C:\Users\Sanqiang\Dropbox\VSProject\Algorithm\Algorithm\obj\x86\Debug\Algorithm.csprojResolveAssemblyReference.cache
