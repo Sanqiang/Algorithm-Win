@@ -6,7 +6,14 @@
             foreach (var item in heap)
             {
                 Console.WriteLine(item);
-            }
+            } 
+            double[] arr3 = { 2, 3, 1, 9, 5, 10, 7, 4, 11 };
+            SortAndSearch.NthBiggest.findNthBiggest3(arr3, 3);
+            Console.WriteLine("=====");
+            foreach (var item in arr3)
+            {
+                Console.WriteLine(item);
+            } 
  */
 namespace Algorithm.SortAndSearch
 {
@@ -108,5 +115,41 @@ namespace Algorithm.SortAndSearch
 
         private static int getLeftChild(int x) { return x * 2 + 1; }
         private static int getRightChild(int x) { return x * 2 + 2; }
+
+
+        //Random Selection
+        public static double[] findNthBiggest3(double[] arr, int k)
+        {
+            int low = 0, high = arr.Length - 1, i;
+            --k;
+            while (low < high)
+            {
+                int r = low + new System.Random().Next(high - low + 1);
+                swap(arr, r, low);
+                int runner = low;
+                for (i = low + 1; i <= high; i++)
+                {
+                    if (arr[i] > arr[low])
+                    {
+                        swap(arr, ++runner, i);
+                    }
+                }
+                swap(arr, runner, low);
+                if (runner == k)
+                {
+                    return arr;
+                }
+                else if (runner > k)
+                {
+                    high = runner - 1;
+                }
+                else
+                {
+                    low = runner + 1;
+                }
+            }
+
+            return arr;
+        }
     }
 }
