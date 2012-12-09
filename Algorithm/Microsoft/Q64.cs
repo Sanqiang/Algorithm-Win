@@ -1,7 +1,6 @@
 ﻿/*
- 
-            Microsoft.Q64.printUglyNum(15);
- */ 
+            Microsoft.Q64.printUglyNum(1500);
+ */
 namespace Algorithm.Microsoft
 {
     class Q64
@@ -10,7 +9,6 @@ namespace Algorithm.Microsoft
         {
             int TimesOfTwo = 1, TimesOfThree = 1, TimesOfFive = 1;
             long output = 1;
-            System.Console.Write(1 + " ");
             while (true)
             {
                 int digit = findSmallest(TimesOfTwo * 2, TimesOfThree * 3, TimesOfFive * 5);
@@ -19,17 +17,17 @@ namespace Algorithm.Microsoft
                     case 2:
                         output = TimesOfTwo * 2;
                         System.Console.Write(output + " ");
-                        TimesOfTwo++;
+                        TimesOfTwo *= 2;
                         break;
                     case 3:
                         output = TimesOfThree * 3;
                         System.Console.Write(output + " ");
-                        TimesOfThree++;
+                        TimesOfThree *= 3;
                         break;
                     case 5:
                         output = TimesOfFive * 5;
                         System.Console.Write(output + " ");
-                        TimesOfFive++;
+                        TimesOfFive *= 5;
                         break;
                 }
                 if (output>=limit)

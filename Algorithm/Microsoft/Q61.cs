@@ -1,7 +1,7 @@
 ﻿/*
              int[] arr = { 10,20,33,33,20,10,100,31};
             Microsoft.Q61.findNums(arr);
- */ 
+ */
 namespace Algorithm.Microsoft
 {
     class Q61

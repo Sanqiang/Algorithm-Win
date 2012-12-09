@@ -8,7 +8,7 @@ namespace Algorithm.Microsoft
 
         //3.3
         /*
-         
+            revision:hint KMP 12/8/2012
             Console.WriteLine( Microsoft.Q79.strstr("abcde", "e"));
          */ 
         public static int strstr(string HayStack, string Needle)
@@ -36,7 +36,6 @@ namespace Algorithm.Microsoft
                     {
                         return Runner - NeedleLength;
                     }
-
                 }
                 else
                 {

@@ -19,7 +19,7 @@
                 Console.WriteLine(loop.Data + " : " + (loop.Sibiling != null ? loop.Sibiling.Data.ToString() : "NULL"));
                 loop = loop.Next;
             }
- */ 
+ */
 namespace Algorithm.Microsoft
 {
     public class Q76

@@ -172,5 +172,112 @@ namespace Algorithm.Microsoft
             //error base
             return tab[col, row];
         }
+
+/*
+
+        private static void getCommon(string left, string right)
+        {
+            int llength = left.Length;
+            int rlength = right.Length;
+            l = left; r = right;
+            table = new int[llength + 1, rlength + 1];
+            for (int i = 0; i <= llength; i++)
+            {
+                for (int j = 0; j <= rlength; j++)
+                {
+                    table[i, j] = -1;
+                }
+            }
+            buildDP(llength, rlength);
+            for (int i = 0; i <= llength; i++)
+            {
+                for (int j = 0; j < rlength; j++)
+                {
+                    Console.Write(table[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+
+            int col = llength, row = rlength;
+            while (col >= 1 && row >= 1)
+            {
+                if (l[col - 1] == r[row - 1])
+                {
+                    Console.Write(l[col - 1]);
+                    --col; --row;
+                }
+                else if (table[col - 1, row] < table[col, row - 1])
+                {
+                    --row;
+                }
+                else if (table[col - 1, row] > table[col, row - 1])
+                {
+                    --col;
+                }
+                else
+                {
+                    --col; --row;
+                }
+            }
+
+        }
+
+        static string l;
+        static string r;
+        static int[,] table;
+        private static int buildDP(int i, int j)
+        {
+            for (int col = 0; col <= i; col++) { table[col, 0] = 0; }
+            for (int row = 0; row <= j; row++) { table[0, row] = 0; }
+
+            for (int col = 1; col <= i; col++)
+            {
+                for (int row = 1; row <= j; row++)
+                {
+                    if (l[col - 1] == r[row - 1])
+                    {
+                        table[col, row] = table[col - 1, row - 1] + 1;
+                    }
+                    else if (table[i - 1, j] > table[i, j - 1])
+                    {
+                        table[i, j] = table[i - 1, j];
+                    }
+                    else if (table[i - 1, j] <= table[i, j - 1])
+                    {
+                        table[i, j] = table[i, j - 1];
+                    }
+                }
+            }
+
+
+            return i + j;//meaningless when iterative
+            // recursive way
+            if (table[i, j] > -1)
+            {
+                return table[i, j];
+            }
+            if (i == 0 || j == 0)
+            {
+                table[i, j] = 0;
+            }
+            else if (l[i - 1] == r[j - 1])
+            {
+                table[i, j] = 1 + buildDP(i - 1, j - 1);
+            }
+            else if (buildDP(i - 1, j) > buildDP(i, j - 1))
+            {
+                table[i, j] = buildDP(i - 1, j);
+            }
+            else if (buildDP(i - 1, j) <= buildDP(i, j - 1))
+            {
+                table[i, j] = buildDP(i, j - 1);
+            }
+
+            return table[i, j];
+             
+        }
+    
+ */
     }
 }
