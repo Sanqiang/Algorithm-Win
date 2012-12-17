@@ -48,7 +48,7 @@ namespace Algorithm.MultiThread
 
         static void test2()
         {
-            System.Threading.ThreadPool.QueueUserWorkItem(new System.Threading.WaitCallback(printX));
+            //System.Threading.ThreadPool.QueueUserWorkItem(new System.Threading.WaitCallback(printX));
 
         }
 
