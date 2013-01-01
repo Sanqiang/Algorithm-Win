@@ -178,8 +178,12 @@
     <Compile Include="Microsoft\Q97.cs" />
     <Compile Include="Microsoft\Q98.cs" />
     <Compile Include="Microsoft\Q99.cs" />
+    <Compile Include="MultiThread\Mutex.cs" />
+    <Compile Include="MultiThread\ProducerAndConsumer.cs" />
+    <Compile Include="MultiThread\Semaphore.cs" />
     <Compile Include="MultiThread\StartThread.cs" />
     <Compile Include="MultiThread\ThreadLock.cs" />
+    <Compile Include="MultiThread\Volative.cs" />
     <Compile Include="Pointer\Sample.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>

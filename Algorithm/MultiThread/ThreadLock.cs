@@ -11,8 +11,6 @@ namespace Algorithm.MultiThread
                 arr.Add(i);
             }
 
-
-
             System.Threading.Thread t1 = new System.Threading.Thread(new System.Threading.ParameterizedThreadStart(removeItem));
             t1.Name = "GDI";
             t1.Start(null);
@@ -54,6 +52,7 @@ namespace Algorithm.MultiThread
 
         private static void printX()
         {
+            
         }
     }
 }

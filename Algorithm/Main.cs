@@ -13,11 +13,12 @@ namespace Algorithm
         //[MethodImpl(MethodImplOptions.InternalCall)]
         public static void Main(string[] args)
         {
+            MultiThread.ProducerAndConsumer.test_eventhandler();
+
             Console.WriteLine("I am done");
             Console.ReadLine();
-
-            System.Collections.Generic.Dictionary<int, int> x;
         }
+
     }
 
 

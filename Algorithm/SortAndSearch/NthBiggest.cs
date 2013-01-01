@@ -116,6 +116,56 @@ namespace Algorithm.SortAndSearch
         private static int getLeftChild(int x) { return x * 2 + 1; }
         private static int getRightChild(int x) { return x * 2 + 2; }
 
+        //Random Selection Revision 1/1/2013
+        /*
+                     double[] arr_a = { 2, 3, 1, 9, 5, 10, 7, 4, 11 };
+            SortAndSearch.NthBiggest.findNthBiggest4(arr_a, 3);
+            foreach (var item in arr_a)
+            {
+                Console.WriteLine(item);   
+            }
+         */ 
+        public static void findNthBiggest4(double[] arr, int k)
+        {
+            findNThBiggestHelper(arr, 0, arr.Length - 1, k);
+        }
+
+        public static void findNThBiggestHelper(double[] arr, int s, int e, int k)
+        {
+            int pivot_index = new System.Random().Next(s, e);
+            double pivot = arr[pivot_index];
+            int left_end = NthBiggestHelperPartition(arr, s, e, pivot);
+            int left_size = left_end - s + 1;
+            if (left_size == k)
+            {
+                return;
+            }
+            else if (left_size > k)
+            {
+                findNThBiggestHelper(arr, s, left_end, k);
+            }
+            else if (left_size < k)
+            {
+                findNThBiggestHelper(arr, left_end + 1, e, k - left_size);
+            }
+
+
+        }
+
+        private static int NthBiggestHelperPartition(double[] arr, int s, int e, double pivot)
+        {
+            while (true)
+            {
+                for (; s <= e && arr[s] >= pivot; ++s) ;
+                for (; s <= e && arr[e] <= pivot; --e) ;
+                if (s > e)
+                {
+                    return s - 1;
+                }
+                swap(arr, s, e);
+            }
+        }
+
 
         //Random Selection
         public static double[] findNthBiggest3(double[] arr, int k)
