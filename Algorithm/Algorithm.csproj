@@ -77,6 +77,21 @@
     <Compile Include="BitManipulation\CCN5_8.cs" />
     <Compile Include="BitManipulation\MaxMin.cs" />
     <Compile Include="BitManipulation\Swap.cs" />
+    <Compile Include="DesignPattern\AbstractFactory.cs" />
+    <Compile Include="DesignPattern\Adapter.cs" />
+    <Compile Include="DesignPattern\Bridge.cs" />
+    <Compile Include="DesignPattern\Builder.cs" />
+    <Compile Include="DesignPattern\Command.cs" />
+    <Compile Include="DesignPattern\Composite.cs" />
+    <Compile Include="DesignPattern\Decorator.cs" />
+    <Compile Include="DesignPattern\Facade.cs" />
+    <Compile Include="DesignPattern\Factory.cs" />
+    <Compile Include="DesignPattern\Flyweight.cs" />
+    <Compile Include="DesignPattern\Prototype.cs" />
+    <Compile Include="DesignPattern\Proxy.cs" />
+    <Compile Include="DesignPattern\Singleton.cs" />
+    <Compile Include="DesignPattern\Strategy.cs" />
+    <Compile Include="DesignPattern\TemplateMethod.cs" />
     <Compile Include="LinkedList\CC2_1.cs" />
     <Compile Include="LinkedList\CC2_2.cs" />
     <Compile Include="LinkedList\CC2_3.cs" />
@@ -285,4 +300,5 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
 </Project>

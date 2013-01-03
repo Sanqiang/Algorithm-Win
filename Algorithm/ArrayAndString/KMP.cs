@@ -73,7 +73,8 @@ namespace Algorithm.ArrayAndString
                     {
                         if (pos > 0)
                         {
-                            pos = helper[pos - 1];
+                            //revision: 1/2/2013
+                            pos = helper[pos - 1] - 1;
                         }
                         else
                         {
