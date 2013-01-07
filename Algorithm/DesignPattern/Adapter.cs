@@ -8,10 +8,10 @@ namespace Algorithm.DesignPattern
 {
     interface IQueue<T>
     {
-        public abstract void push(T val);
-        public abstract T pop();
-        public abstract T peekAtFirst();
-        public abstract T peekAtLast();
+          void push(T val);
+          T pop();
+          T peekAtFirst();
+          T peekAtLast();
     }
 
     class ObjectAdapter<T> : IQueue<T>

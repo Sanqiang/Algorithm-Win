@@ -12,7 +12,7 @@ namespace Algorithm.DesignPattern
 
     interface IProxy
     {
-        public void doSomething();
+         void doSomething();
     }
 
     class LongDistanceProxy : IProxy

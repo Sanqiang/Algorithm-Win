@@ -10,11 +10,11 @@ namespace Algorithm.DesignPattern
     {
     }
 
-    class Manager
+    class ManagerX
     {
         People _p;
         Weapon _w;
-        public Manager(People p, Weapon w)
+        public ManagerX(People p, Weapon w)
         {
             this._p = p;
             this._w = w;

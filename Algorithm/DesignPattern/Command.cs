@@ -23,6 +23,10 @@ namespace Algorithm.DesignPattern
 
         class WriteCommand : Command
         {
+            public WriteCommand(Document doc)
+                : base(doc)
+            {
+            }
             public override void Execute()
             {
                 _doc.content += "abc";
@@ -31,7 +35,10 @@ namespace Algorithm.DesignPattern
 
         class DeleteCommand : Command
         {
-
+            public DeleteCommand(Document doc)
+                : base(doc)
+            {
+            }
             public override void Execute()
             {
                 _doc.content = string.Empty;
@@ -55,6 +62,10 @@ namespace Algorithm.DesignPattern
 
         class DocumentCommand : Command
         {
+            public DocumentCommand(Document doc)
+                : base(doc)
+            {
+            }
             public override void write()
             {
                 _doc.content += "abc";

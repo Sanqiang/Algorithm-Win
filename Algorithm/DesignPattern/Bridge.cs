@@ -23,6 +23,10 @@ namespace Algorithm.DesignPattern
 
     class RobotA : Robot
     {
+        public RobotA(Progressor fuel)
+            : base(fuel)
+        {
+        }
 
         public override void move()
         {
@@ -32,7 +36,10 @@ namespace Algorithm.DesignPattern
 
     class RobotB : Robot
     {
-
+        public RobotB(Progressor fuel)
+            : base(fuel)
+        {
+        }
         public override void move()
         {
             Console.WriteLine("Move slow");

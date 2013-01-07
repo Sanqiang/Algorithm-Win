@@ -87,6 +87,7 @@
     <Compile Include="DesignPattern\Facade.cs" />
     <Compile Include="DesignPattern\Factory.cs" />
     <Compile Include="DesignPattern\Flyweight.cs" />
+    <Compile Include="DesignPattern\Operater.cs" />
     <Compile Include="DesignPattern\Prototype.cs" />
     <Compile Include="DesignPattern\Proxy.cs" />
     <Compile Include="DesignPattern\Singleton.cs" />
