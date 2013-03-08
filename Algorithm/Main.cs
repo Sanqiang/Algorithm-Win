@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Algorithm.TreeAndGraph;
 using Algorithm.LinkedList;
+using System.Net;
 
 
 namespace Algorithm
@@ -13,19 +14,9 @@ namespace Algorithm
         //[MethodImpl(MethodImplOptions.InternalCall)]
         public static void Main(string[] args)
         {
+            LinkedNode node = LinkedNode.getInst();
+            var list = new Leetcode.ReverseLinkedListII().reverseBetween(node,2,4);
 
-            double[,] matrix =  {
-            {15, 20, 70, 85},
-            {20, 35, 80, 95},
-            {30, 55, 95, 105},
-            {40, 80, 120, 120}
-        };
-
-            Console.WriteLine(SortAndSearch.CC9_6.SearchOnMatrixMyV5(matrix, 20));
-
-
-
-            //MultiThread.ProducerAndConsumer.test_eventhandler();
             Console.WriteLine("I am done");
             Console.ReadLine();
         }

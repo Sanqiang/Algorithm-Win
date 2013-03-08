@@ -18,6 +18,20 @@
             }
             return length;
         }
+
+        public static LinkedNode getInst()
+        {
+            LinkedNode l1 = new LinkedNode(1);
+            LinkedNode l2 = new LinkedNode(2);
+            LinkedNode l3 = new LinkedNode(3);
+            LinkedNode l4 = new LinkedNode(4);
+            LinkedNode l5 = new LinkedNode(5);
+            l1.Next = l2;
+            l2.Next = l3;
+            l3.Next = l4;
+            l4.Next = l5;
+            return l1;
+        }
     }
 
     public class DoubleLinkedNode

@@ -5,7 +5,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmCPP", "AlgorithmCPP\AlgorithmCPP.vcxproj", "{9E24B78A-5ED7-426D-A764-2646F9032E9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework45", "Framework45\Framework45.csproj", "{373C43BE-4788-45DE-A95D-C03A681B676F}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AlgorithmWS", "AlgorithmWS\", "{F7E69638-31D2-4CE4-9658-0422F5B96CE5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/AlgorithmWS"
+		Debug.AspNetCompiler.PhysicalPath = "AlgorithmWS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AlgorithmWS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AlgorithmWS"
+		Release.AspNetCompiler.PhysicalPath = "AlgorithmWS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AlgorithmWS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "29481"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,20 +73,20 @@ Global
 		{9E24B78A-5ED7-426D-A764-2646F9032E9B}.Release|x64.ActiveCfg = Release|x64
 		{9E24B78A-5ED7-426D-A764-2646F9032E9B}.Release|x64.Build.0 = Release|x64
 		{9E24B78A-5ED7-426D-A764-2646F9032E9B}.Release|x86.ActiveCfg = Release|Win32
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Release|Win32.ActiveCfg = Release|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Release|x64.ActiveCfg = Release|Any CPU
-		{373C43BE-4788-45DE-A95D-C03A681B676F}.Release|x86.ActiveCfg = Release|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Release|Win32.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Release|x64.ActiveCfg = Debug|Any CPU
+		{F7E69638-31D2-4CE4-9658-0422F5B96CE5}.Release|x86.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -53,6 +53,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="System.Messaging" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayAndString\CC1_3.cs" />
@@ -93,6 +94,44 @@
     <Compile Include="DesignPattern\Singleton.cs" />
     <Compile Include="DesignPattern\Strategy.cs" />
     <Compile Include="DesignPattern\TemplateMethod.cs" />
+    <Compile Include="Leetcode\BalancedBinaryTree.cs" />
+    <Compile Include="Leetcode\BestTimetoBuyandSellStock.cs" />
+    <Compile Include="Leetcode\BinaryTreeInorderTraversal.cs" />
+    <Compile Include="Leetcode\BinaryTreeLevelOrderTraversal.cs" />
+    <Compile Include="Leetcode\BinaryTreeLevelOrderTraversalII.cs" />
+    <Compile Include="Leetcode\BinaryTreeMaximumPathSum.cs" />
+    <Compile Include="Leetcode\BinaryTreeZigzagLevelOrderTraversal.cs" />
+    <Compile Include="Leetcode\ConstructBinaryTreefromInorderandPostorderTraversal.cs" />
+    <Compile Include="Leetcode\ConstructBinaryTreefromPreorderandInorderTraversal.cs" />
+    <Compile Include="Leetcode\ConvertSortedArraytoBinarySearchTree.cs" />
+    <Compile Include="Leetcode\ConvertSortedListtoBinarySearchTree.cs" />
+    <Compile Include="Leetcode\DistinctSubsequences.cs" />
+    <Compile Include="Leetcode\FlattenBinaryTreetoLinkedList.cs" />
+    <Compile Include="Leetcode\InterleavingString.cs" />
+    <Compile Include="Leetcode\LongestConsecutiveSequence.cs" />
+    <Compile Include="Leetcode\MaximumDepthofBinaryTree.cs" />
+    <Compile Include="Leetcode\MinimumDepthofBinaryTree.cs" />
+    <Compile Include="Leetcode\PascalTriangle.cs" />
+    <Compile Include="Leetcode\PascalTriangle2.cs" />
+    <Compile Include="Leetcode\PathSum.cs" />
+    <Compile Include="Leetcode\PathSum2.cs" />
+    <Compile Include="Leetcode\PopulatingNextRightPointersinEachNode.cs" />
+    <Compile Include="Leetcode\PopulatingNextRightPointersinEachNode2.cs" />
+    <Compile Include="Leetcode\RecoverBinarySearchTree.cs" />
+    <Compile Include="Leetcode\ReverseLinkedListII.cs" />
+    <Compile Include="Leetcode\SameTree.cs" />
+    <Compile Include="Leetcode\SumRoottoLeafNumbers.cs" />
+    <Compile Include="Leetcode\SurroundingRegion.cs" />
+    <Compile Include="Leetcode\SymmetricTree.cs" />
+    <Compile Include="Leetcode\Triangle.cs" />
+    <Compile Include="Leetcode\UniqueBinarySearchTrees.cs" />
+    <Compile Include="Leetcode\UniqueBinarySearchTreesII.cs" />
+    <Compile Include="Leetcode\ValidateBinarySearchTree.cs" />
+    <Compile Include="Leetcode\ValidPalindrome.cs" />
+    <Compile Include="Leetcode\WordLadder.cs" />
+    <Compile Include="Leetcode\WordLadder2.cs" />
+    <Compile Include="Leetcode\BestTimetoBuyandSellStock2.cs" />
+    <Compile Include="Leetcode\BestTimetoBuyandSellStock3.cs" />
     <Compile Include="LinkedList\CC2_1.cs" />
     <Compile Include="LinkedList\CC2_2.cs" />
     <Compile Include="LinkedList\CC2_3.cs" />
@@ -194,6 +233,7 @@
     <Compile Include="Microsoft\Q97.cs" />
     <Compile Include="Microsoft\Q98.cs" />
     <Compile Include="Microsoft\Q99.cs" />
+    <Compile Include="MultiThread\MegQueue.cs" />
     <Compile Include="MultiThread\Mutex.cs" />
     <Compile Include="MultiThread\ProducerAndConsumer.cs" />
     <Compile Include="MultiThread\Semaphore.cs" />
@@ -268,6 +308,7 @@
     <Compile Include="TreeAndGraph\Floyd.cs" />
     <Compile Include="TreeAndGraph\hasLoop.cs" />
     <Compile Include="TreeAndGraph\RBTree.cs" />
+    <Compile Include="Leetcode\RestoreIPAddresses.cs" />
     <Compile Include="TreeAndGraph\VerifyBinarySearchTree.cs" />
     <Compile Include="ArrayAndString\CC1_1.cs" />
   </ItemGroup>
