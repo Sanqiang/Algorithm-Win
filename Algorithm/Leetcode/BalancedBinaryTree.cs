@@ -11,21 +11,30 @@ namespace Algorithm.Leetcode
         public bool isBalanced(TreeAndGraph.BinaryTreeNode root)
         {
             int height = 0;
-            return DFS(root, ref height);
+            return DFS(root) != -1;
         }
 
-        bool DFS(TreeAndGraph.BinaryTreeNode node, ref int height)
+        int DFS(TreeAndGraph.BinaryTreeNode node)
         {
             if (node == null)
             {
-                height = 0;
-                return true;
+                return 0;
             }
-            int lh = 0, rh = 0;
-            bool l = DFS(node.LeftNode, ref lh);
-            bool r = DFS(node.RightNode, ref rh);
-            height = Math.Max(lh, rh) + 1;
-            return l && r && Math.Abs(lh - rh) <= 1;
+            int l =DFS(node.LeftNode);
+            if (l == -1)
+            {
+                return -1;
+            }
+            int r =DFS(node.RightNode);
+            if (r == -1)
+            {
+                return -1;
+            }
+            if (Math.Abs(l-r) >= 1)
+            {
+                return -1;
+            }
+            return Math.Max(l, r) + 1;
         }
 
     }

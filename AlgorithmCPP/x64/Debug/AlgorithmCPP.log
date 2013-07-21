@@ -1,50 +1,50 @@
-﻿Build started 11/24/2012 9:33:17 PM.
-     1>Project "C:\Users\Sanqiang\Dropbox\VSProject\Algorithm\AlgorithmCPP\AlgorithmCPP.vcxproj" on node 3 (Rebuild target(s)).
+﻿生成启动时间为 2013/3/16 5:09:47。
+     1>项目“C:\Users\Administrator\Dropbox\GitHub\Algorithm-Win\AlgorithmCPP\AlgorithmCPP.vcxproj”在节点 3 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt 1_4.cpp 1_1.cpp 1_2.cpp 1_3.cpp element.cpp Entity.cpp Entry.cpp Helper.cpp Pointer.cpp Q1.cpp Q2.cpp Q3.cpp Q4.cpp Q5.cpp Q6.cpp Q7.cpp StdOperation.cpp
          StdOperation.cpp
-     1>c:\users\sanqiang\dropbox\vsproject\algorithm\algorithmcpp\Entity.cpp(13): warning C4091: 'typedef ' : ignored on left of 'LinkedNode' when no variable is declared
+     1>c:\users\administrator\dropbox\github\algorithm-win\algorithmcpp\Entity.cpp(13): warning C4091: “typedef ”: 没有声明变量时忽略“LinkedNode”的左侧
          Q7.cpp
          Q6.cpp
          Q5.cpp
          Q4.cpp
      1>Q4.cpp(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(290) : see declaration of 'scanf'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(290) : 参见“scanf”的声明
          Q3.cpp
          Q2.cpp
          Q1.cpp
-     1>Q1.cpp(40): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
-     1>Q1.cpp(41): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Q1.cpp(40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Q1.cpp(41): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
          Pointer.cpp
          Helper.cpp
          Entry.cpp
-     1>Entry.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>Entry.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>Entry.cpp(23): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>Entry.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>Entry.cpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>Entry.cpp(23): warning C4552: “+”: 运算符不起任何作用；应输入带副作用的运算符
          Entity.cpp
-     1>Entity.cpp(13): warning C4091: 'typedef ' : ignored on left of 'LinkedNode' when no variable is declared
+     1>Entity.cpp(13): warning C4091: “typedef ”: 没有声明变量时忽略“LinkedNode”的左侧
          element.cpp
-     1>element.cpp(24): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>element.cpp(24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
      1>element.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
-     1>element.cpp(37): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>element.cpp(37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
      1>element.cpp(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
-     1>element.cpp(50): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>element.cpp(50): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
      1>element.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
          1_3.cpp
-     1>1_3.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>1_3.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
          1_2.cpp
-     1>1_2.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>1_2.cpp(10): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>1_2.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>1_2.cpp(10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
          1_1.cpp
-     1>1_1.cpp(10): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>1_1.cpp(10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
          1_4.cpp
-     1>1_4.cpp(28): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
-         Generating Code...
+     1>1_4.cpp(28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sanqiang\Dropbox\VSProject\Algorithm\x64\Debug\AlgorithmCPP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sanqiang\Dropbox\VSProject\Algorithm\x64\Debug\AlgorithmCPP.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sanqiang\Dropbox\VSProject\Algorithm\x64\Debug\AlgorithmCPP.lib" /MACHINE:X64 x64\Debug\1_4.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Dropbox\GitHub\Algorithm-Win\x64\Debug\AlgorithmCPP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Dropbox\GitHub\Algorithm-Win\x64\Debug\AlgorithmCPP.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Dropbox\GitHub\Algorithm-Win\x64\Debug\AlgorithmCPP.lib" /MACHINE:X64 x64\Debug\1_4.obj
          x64\Debug\1_1.obj
          x64\Debug\1_2.obj
          x64\Debug\1_3.obj
@@ -61,9 +61,10 @@
          x64\Debug\Q6.obj
          x64\Debug\Q7.obj
          x64\Debug\StdOperation.obj
-         AlgorithmCPP.vcxproj -> C:\Users\Sanqiang\Dropbox\VSProject\Algorithm\x64\Debug\AlgorithmCPP.exe
-     1>Done Building Project "C:\Users\Sanqiang\Dropbox\VSProject\Algorithm\AlgorithmCPP\AlgorithmCPP.vcxproj" (Rebuild target(s)).
+         LINK : 没有找到 C:\Users\Administrator\Dropbox\GitHub\Algorithm-Win\x64\Debug\AlgorithmCPP.exe 或上一个增量链接没有生成它；正在执行完全链接
+         AlgorithmCPP.vcxproj -> C:\Users\Administrator\Dropbox\GitHub\Algorithm-Win\x64\Debug\AlgorithmCPP.exe
+     1>已完成生成项目“C:\Users\Administrator\Dropbox\GitHub\Algorithm-Win\AlgorithmCPP\AlgorithmCPP.vcxproj”(Build 个目标)的操作。
 
-Build succeeded.
+生成成功。
 
-Time Elapsed 00:00:07.85
+已用时间 00:00:16.77

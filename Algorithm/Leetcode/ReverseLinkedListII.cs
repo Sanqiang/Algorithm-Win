@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Algorithm.LinkedList;
-
+/*
+            LinkedNode node = LinkedNode.getInst();
+            var list = new Leetcode.ReverseLinkedListII().reverseBetween(node,2,4); 
+ */
 namespace Algorithm.Leetcode
 {
     class ReverseLinkedListII
